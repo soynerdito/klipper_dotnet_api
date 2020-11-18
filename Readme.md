@@ -13,7 +13,5 @@ Share and play.
 
 ![swagger ui](swaggerui.png)
 
----
 > **_Note_**
 ` This is a work in progress that may never be completed.`
----

@@ -12,6 +12,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+# Ignore appsettings
+src/KApinet/KApinet/appsettings.Development.json
 
 # Mono auto generated files
 mono_crash.*

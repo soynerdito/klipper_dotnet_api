@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace KApiSharp.Model
+namespace KApinet.Model
 {
     public class KlippySimpleMessage : IKlippyMessage
     {

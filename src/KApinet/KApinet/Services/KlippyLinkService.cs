@@ -1,4 +1,4 @@
-﻿using KApiSharp.Model;
+﻿using KApinet.Model;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
@@ -10,10 +10,11 @@ using System.Threading.Tasks;
 
 namespace KApinet.Services
 {
-    /// <summary>
-    /// Handles communication with the klippy
-    /// </summary>
-    public class KlippyLinkService : IHostedService
+	
+	/// <summary>
+	/// Handles communication with the klippy
+	/// </summary>
+	public class KlippyLinkService : IHostedService
     {
   //      private async Task Sample()
   //      {

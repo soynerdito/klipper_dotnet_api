@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KApiSharp.Model
+namespace KApinet.Model
 {
     public interface IKlippyMessage
     {

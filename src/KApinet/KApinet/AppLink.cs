@@ -1,4 +1,4 @@
-﻿using KApiSharp.Model;
+﻿using KApinet.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

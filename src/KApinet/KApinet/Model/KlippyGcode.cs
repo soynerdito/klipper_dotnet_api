@@ -19,14 +19,14 @@ namespace KApinet.Model
     public interface IPostAction : IKlippyCommand { }
     public interface IGetAction : IKlippyCommand { }
     public record KMessage( int id, string method, object @params) : IKlippyCommand;
-    public record KInfo(int id ) : KMessage(id: id, method: "info", @params: new object()) , IGetAction;
-    public record GCodeScript(int id ) : KMessage(id: id, method: "gcode/script", @params: new object()) , IGetAction;
-    public record Status(int id) : KMessage(id: id, method: "gcode/status", @params: new object())  , IGetAction;
-    public record GCodeHelp(int id) : KMessage(id: id, method: "gcode/help", @params: new object()) ,  IGetAction;
-    public record GCodeRestart(int id) : KMessage(id: id, method: "gcode/restart", @params: new object()) , IPostAction;
-    public record GPause(int id) : KMessage(id: id, method: "pause_resume/pause", @params: new object()), IPostAction;
-    public record GResume(int id) : KMessage(id: id, method: "pause_resume/resume", @params: new object()), IPostAction;
-    public record GQEndstops(int id) : KMessage(id: id, method: "query_endstops/status", @params: new object()), IPostAction;
+    //public record KInfo(int id ) : KMessage(id: id, method: "info", @params: new object()) , IGetAction;
+    //public record GCodeScript(int id ) : KMessage(id: id, method: "gcode/script", @params: new object()) , IGetAction;
+    //public record Status(int id) : KMessage(id: id, method: "gcode/status", @params: new object())  , IGetAction;
+    //public record GCodeHelp(int id) : KMessage(id: id, method: "gcode/help", @params: new object()) ,  IGetAction;
+    //public record GCodeRestart(int id) : KMessage(id: id, method: "gcode/restart", @params: new object()) , IPostAction;
+    //public record GPause(int id) : KMessage(id: id, method: "pause_resume/pause", @params: new object()), IPostAction;
+    //public record GResume(int id) : KMessage(id: id, method: "pause_resume/resume", @params: new object()), IPostAction;
+    //public record GQEndstops(int id) : KMessage(id: id, method: "query_endstops/status", @params: new object()), IPostAction;
 
 
 }

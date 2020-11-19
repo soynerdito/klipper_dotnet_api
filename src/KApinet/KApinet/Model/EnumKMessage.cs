@@ -8,6 +8,9 @@ namespace KApinet.Model
     public static class EnumKMessage
     {
         public static string EmergencyStop => "emergency_stop";
-        public static string Info => "info";        
+        public static string Info => "info";
+        public static string PrinterObjectList => "printer/objects/list";
+
+
     }
 }
